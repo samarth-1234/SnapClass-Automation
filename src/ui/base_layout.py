@@ -32,13 +32,13 @@ def style_base_layout():
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-            #MainMenu, footer, header {
-                visibility: hidden;
-            }
+            # #MainMenu, footer, header {
+            #     visibility: hidden;
+            # }
 
-            .block-container {
-                padding-top: 1.5rem !important;
-            }
+            # .block-container {
+            #     padding-top: 1.5rem !important;
+            # }
 
             h1 {
                 font-family: 'Climate Crisis', sans-serif !important;
@@ -53,7 +53,7 @@ def style_base_layout():
                 font-size: 2rem !important;
                 line-height: 0.9 !important;
                 margin-bottom: 0rem !important;
-                color: black !important;
+                color: black;
             }
             h3, h4, p{
                 font-family: 'Outfit', sans-serif !important;
