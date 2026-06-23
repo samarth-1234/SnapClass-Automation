@@ -21,3 +21,7 @@ segno
 pillow
 # Frontend, API, Deploy
 streamlit
+
+
+librosa
+resemblyzer
