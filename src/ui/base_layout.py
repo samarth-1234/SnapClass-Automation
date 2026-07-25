@@ -85,6 +85,17 @@ def style_base_layout():
             button:hover {
                 transform :scale(1.05);
             }
+
+            :root{
+
+                --background-color:#E0E3FF !important;
+
+                --secondary-background-color:#E0E3FF !important;
+
+                --text-color:#222 !important;
+
+                --primary-color:#5865F2 !important;
+            }
             
         </style>
     """, unsafe_allow_html=True)
