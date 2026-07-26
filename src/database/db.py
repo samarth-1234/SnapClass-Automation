@@ -54,7 +54,7 @@ def get_teacher_subjects(teacher_id):
 
 
     for sub in subjects:
-        sub['total_students'] = sub.get("subject_students", [{}])[0].get('count', 0) if sub.get('subjects_students') else 0
+        sub['total_students'] = sub.get("subject_students", [{}])[0].get('count', 0) if sub.get('subject_students') else 0
         attendance = sub.get("attendance_logs", [])
         unique_session = len(set(log['timestamp'] for log in attendance))
         sub['total_classes'] = unique_session

@@ -77,7 +77,7 @@ def student_dashboard():
                     ('📅', 'Total', stats['total']),
                     ('✅', 'Attended', stats['attended'])
                 ],
-                footer_callback = unenroll_btn()
+                footer_callback = unenroll_btn
             )
 
     footer_dashboard()
