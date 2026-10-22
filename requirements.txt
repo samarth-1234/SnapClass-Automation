@@ -1,3 +1,6 @@
+# Frontend, API, Deploy
+streamlit
+
 # Utilitites
 numpy
 pandas
@@ -19,8 +22,6 @@ bcrypt
 segno
 # Image Preprocessing
 pillow
-# Frontend, API, Deploy
-streamlit
 
 
 librosa
