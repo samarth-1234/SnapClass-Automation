@@ -4,6 +4,7 @@
 
 SnapClass is an AI-powered attendance management system for schools and colleges. It uses face and voice recognition to simplify attendance and reduce manual effort.
 
+-------------------------------------------------------------------------------
 * 🚀 **Landing Page:** https://sc-landing-page-green.vercel.app
 * 💻 **GitHub Repository:** https://github.com/samarth-1234/sc-landing-page
 -------------------------------------------------------------------------------
